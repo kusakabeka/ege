@@ -1,0 +1,16 @@
+f = open('17_5.txt')
+a = list(map(int, f.readlines()))
+
+minc = min(a)
+
+maxs = 0
+c = 0
+
+for i in range(len(a) - 1):
+    if a[i] % 16 == minc or a[i+1] % 16 == minc:
+        c += 1
+        maxs = max(maxs, a[i] + a[i + 1])
+
+print(c, maxs)
+
+f.close()

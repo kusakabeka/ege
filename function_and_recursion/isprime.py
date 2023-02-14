@@ -5,4 +5,3 @@ def isPrime(n):
         else:
             return "YES"
 n = int(input())
-print(isPrime(n))

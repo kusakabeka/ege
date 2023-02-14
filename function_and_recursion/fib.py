@@ -1,9 +1,8 @@
-def fib(num: int) -> int:
-    if num < 3:
-        return 1
-    else:
-        return fib(num - 1) + fib(num - 2)
-
-
+def f(n): 
+    if n == 1 : return 1
+    return f(n - 1) * n
+print("Please, enter number...")
 n = int(input())
-print(fib(n))
+def new_func(f, n):
+    print(f"factorial your number: {f(n)}")
+

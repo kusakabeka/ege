@@ -1,15 +1,12 @@
-n = int(input())
-a = []
-s = 0
-m = 0
-for i in range(7):
-	a.append(int(input()))
-for i in range(7, n):
-	x = int(input())
-	if a[i % 7] > m: m = a[i % 7]
-	if x + m > s:
-		s = x + m
-	a[i % 7] = x
-print(s)
-
-
+f = open("27-A.txt")
+s = f.readlines()
+string, a = "", []
+for _ in range(len(s)):
+	string += s[i]
+string = string.split('\n')[:-1]
+for _ in range(len(string)):
+	a.append(int(string[i]))
+for i in range(len(a) - 1):
+	for j in range(i, len(a) - 1):
+		if a[i] + a[j] % 2 == 0:
+			

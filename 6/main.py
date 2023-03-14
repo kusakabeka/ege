@@ -3,12 +3,10 @@ color("black", "red")
 m = 100
 speed(1000)
 begin_fill()
-'''
-алгоритм из условия
+#алгоритм из условия
 for i in range(3):
-    forward(13 * m)
+    forward(16 * m)
     right(120)
-'''
 end_fill()
 canvas = getcanvas()
 count = 0

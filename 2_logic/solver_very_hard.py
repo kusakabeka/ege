@@ -1,20 +1,11 @@
 from itertools import *
 
+def f(x, y, w, z):
+    return ((x <= w) and ((not y) <= z)) <= ((z == x) or (w and (not y)))
 
-def u(w, x, y, z):
-    return 1 - (y <= 1 - (z <= w)) and (1 - z <= (1 - w == x))
-
-
-# repeat = количеству "?"
-for a, b, c, d, e, f in product([0, 1], repeat=6):
-    t = ((1, a, 1, 1, 0),  # последний столбик - значение функции
-         (b, c, 0, 0, 1),  # последний столбик - значение функции
-         (e, 0, 0, f, 1))  # последний столбик - значение функции
+for a1, a2, a3, a4, a5 in product([0,1], repeat=5):
+    t = [(0, a1, 0, 0), (a2, 1,1,1), (a3, a4, a5,0)]
     if len(t) == len(set(t)):
-        for p in permutations("wxyz"):
-            #если функция все время равна либо 1
-            #либо 0, то  all(u(**dict(zip(p, r))) == 0
-            #если функция возвращает разные значение, то
-            # all(u(**dict(zip(p, r))) == r[-1]
-            if all(u(**dict(zip(p, r))) == r[-1] for r in t):
-                print(*p)
+        for p in permutations("xywz"):
+            if [f(**dict(zip(p, r))) for r in t] == [0, 0, 0]:
+                print(*p, sep="")

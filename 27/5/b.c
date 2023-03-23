@@ -2,7 +2,7 @@
 #include <vector>
 #include <fstream>
 #include <climits>
-
+#include <stdio.h>
 using namespace std;
 
 int main()

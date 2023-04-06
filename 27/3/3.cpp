@@ -4,8 +4,7 @@
 #include <time.h>
 #include <climits> // для того, чтобы LLONG_MAX завелся
 #include <cmath>
-#include <algorithm>
-#include <stdio.h>
+#include <algorithms>
 
 using namespace std;
 /*

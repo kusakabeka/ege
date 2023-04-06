@@ -2,7 +2,7 @@
 '''БОЛЬШАЯ ПРОГРАММА'''
 
 '''
-f = open("24.txt")
+f = open("1.txt")
 s = f.readline()
 k = 0
 kmax = 0

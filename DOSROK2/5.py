@@ -1,5 +1,5 @@
 for n in range(1, 100000):
-    b = f"{n:b}"
+    b = f"{n:b}" # b = bin(n)[2:]
     if n % 3 == 0: b += b[-3:]
     else: b += f"{((n % 3) * 3):b}"
 

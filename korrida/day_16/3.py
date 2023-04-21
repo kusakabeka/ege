@@ -5,8 +5,10 @@ def isprime(n):
             return False
         d += 1
     return True
+
 k = 0
 maxd = 0
+
 for i in range(125697, 190234 + 1):
     d = 2
     while d*d < i:

@@ -1,9 +1,9 @@
 maxx = 0
 for n in range(200, 100000):
-    s = "1" * n
+    s = "1(эффективный перебор)" * n
     while "1111" in s:
         s = s.replace("1111", "22", 1)
-        s = s.replace("222", "1", 1)
+        s = s.replace("222", "1(эффективный перебор)", 1)
     if 8
     maxx = max(maxx, len(s))
         print(n)

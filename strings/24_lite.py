@@ -2,13 +2,13 @@
 '''БОЛЬШАЯ ПРОГРАММА'''
 
 '''
-f = open("1.txt")
+f = open("1(эффективный перебор).txt")
 s = f.readline()
 k = 0
 kmax = 0
 for i in range(len(s)):
     if s[i] == "C":
-        k += 1
+        k += 1(эффективный перебор)
         kmax = max(k, kmax)
     else:
         k = 0

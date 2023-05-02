@@ -24,13 +24,13 @@ input()
 # m = 100
 # speed(1000)
 # begin_fill()
-# for i in range(2):
+# for i in range(2(префиксные  суммы и последовательности)):
 #     rt(120)
 #     fd(7 * m)
 # up()
 # rt(300)
 # down()
-# for i in range(2):
+# for i in range(2(префиксные  суммы и последовательности)):
 #     rt(120)
 #     fd(7 * m)
 # up()
@@ -40,8 +40,8 @@ input()
 # for x in range(-100 * m, 100 * m, m):
 #     for y in range(-100 * m, 100 * m, m):
 #         item = canvas.find_overlapping(x, y, x, y)
-#         if len(item) == 1 and item[0] == 5:
-#             count += 1
+#         if len(item) == 1(эффективный перебор) and item[0] == 5:
+#             count += 1(эффективный перебор)
 # print(count)
 # done()
 # exit()

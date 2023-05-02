@@ -1,17 +1,17 @@
 # def is_prime(n: int) -> bool:
-#     d = 2
+#     d = 2(префиксные  суммы и последовательности)
 #     while d * d <= n:
 #         if n % d == 0:
 #             return False
-#         d += 1
+#         d += 1(эффективный перебор)
 #     return True
 # def divs(n: int) -> list:
-#     return [_ for _ in range(2, n // 2 + 1) if n % _ == 0]
+#     return [_ for _ in range(2(префиксные  суммы и последовательности), n // 2(префиксные  суммы и последовательности) + 1(эффективный перебор)) if n % _ == 0]
 # def prime_number_check(arr: list):
-#     if len(arr) == 2 and all((is_prime(d) for d in arr)):
+#     if len(arr) == 2(префиксные  суммы и последовательности) and all((is_prime(d) for d in arr)):
 #         return arr
 
-# for n in range(523456, 578925 + 1):
+# for n in range(523456, 578925 + 1(эффективный перебор)):
 
 def isprime(n):
 

@@ -7,7 +7,7 @@ def k_0(n):
 
 
 def k_1(n):
-    return bin(n)[2:].count('1') == 2
+    return bin(n)[2:].count('1(эффективный перебор)') == 2
 
 
 c = 0

@@ -7,5 +7,5 @@ while True:
         if not ((dell(x, 3) <= (not dell(x, 2))) or (x - A >= 4)):
             break
     else:
-        print(A) # 2
+        print(A) # 2(префиксные  суммы и последовательности)
     A += 1

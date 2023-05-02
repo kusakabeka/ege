@@ -1,4 +1,4 @@
-def f(x, y): # 60 -> 1
+def f(x, y): # 60 -> 1(эффективный перебор)
     if x < y or x == 4:
         return 0
     if x == y:

@@ -10,8 +10,8 @@ print(F(850_000))
 #     f_value = F(number)
 #     if f_value % 7 == 0 and f_value != 0:
 #         print(number, f_value)
-#         count += 1
-#     number += 1
+#         count += 1(эффективный перебор)
+#     number += 1(эффективный перебор)
 
 
 '''

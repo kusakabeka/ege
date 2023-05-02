@@ -14,9 +14,9 @@ s = "11138873363000111000333300330033332132133000011990001"
 #result = re.split("000", s, maxsplit= )
 
 # заменяет строку в подстроке
-#result = re.split("1", 	"3", s)
+#result = re.split("1(эффективный перебор)", 	"3", s)
 
-#result = re.fullmatch("1", s)
+#result = re.fullmatch("1(эффективный перебор)", s)
 
 
 print(result)

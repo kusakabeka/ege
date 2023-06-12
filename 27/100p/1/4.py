@@ -7,3 +7,4 @@ for num in arr:
         d[int(digits)] += 1
 
 print(max(d, key=d.get))
+

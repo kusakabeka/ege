@@ -6,3 +6,7 @@ func main() {
 	var n int32
 	fmt.Scan(&n)
 }
+
+type Person struct {
+	
+}

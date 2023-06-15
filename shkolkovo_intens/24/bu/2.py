@@ -1,4 +1,4 @@
-with open("test.txt") as f: a = [l.rstrip() for  l in f]
+with open("test.txt") as f: a = [l.rstrip() for l in f]
 c = 0
 for i in range(len(a)):
     a[i] = a[i].replace("SY", "*")

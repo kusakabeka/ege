@@ -1,0 +1,1 @@
+with open("3.txt") as f: s = f.readline()

@@ -1,7 +1,2 @@
-def f(s, m):
-    if m % 2 == 0: ...
-
-    h = [f(s + 1,m - 1), f(s + 4, m - 1), f(s * 3, m - 1)]
-    if ...:
-        ...
-    ...
+def f(s, c, m):
+    if s >= 88: return m % 2
